@@ -5,6 +5,7 @@
 	<!-- Set the viewport width to device width for mobile -->
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	  <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
 
 	<title>Anuncios ITDECSA</title>
 	
@@ -72,16 +73,58 @@
 
 	<div class="contenedor seccion3">
 
-		<div class="menucategorias ">
-			<ul>
-				<li class="adf1">Telefono:+51 084 245 844</li>
-				<li class="da2">Celular:+51 993 026 679</li>
-				<li class="da3">Direcci&oacuten:Av. la Cultura 772, oficina 205</li>
-				<li class="ad4">Correo:Informes@itdecsa.com</li>
-			</ul>
+		<div class="menucategorias">
+
+			  <ul class="ca-menu">
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon">F</span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Exceptional Service</h2>
+                                <h3 class="ca-sub">Personalized to your needs</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon">H</span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Creative Storytelling</h2>
+                                <h3 class="ca-sub">Advanced use of technology</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon">N</span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Infographical Education</h2>
+                                <h3 class="ca-sub">Understanding visually</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon">K</span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Sophisticated Team</h2>
+                                <h3 class="ca-sub">Professionals in action</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ca-icon">L</span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Unconditional Support</h2>
+                                <h3 class="ca-sub">24/7 for you needs</h3>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
 		</div>
 
-		<div class="banner ">
+		<div class="banner">
 			<img src="img/02_slider.jpg" alt="" class="bannerr">
 		</div>
 
