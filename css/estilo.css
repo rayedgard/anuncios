@@ -1,0 +1,204 @@
+/* RESET CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body{padding:15px;background:#D9D7D7;font-family:tahoma;font-size:16px;}
+
+/* GRID FRAMEWORK */
+.grid-container{width:100%;}
+.row{display:table;clear:both;width:100%;margin-bottom:15px;}
+.row .box{margin-left:15px;}
+.row div:first-child > .box{margin-left:0} /* El primer div dentro dela clase .row que le remueva el margin a la clase .box*/
+
+/* Decorador para ver las grillas */
+.resaltador .row{background-color:#FFC2C2;text-align:center;}
+.resaltador .row .box{background:#FFDCDC;}
+
+
+
+
+
+
+
+
+/*Primera Sección de la cebecera*/
+.contenedor {
+ padding:0 30px;  
+}
+
+a img {
+  border: none;
+}
+
+.seccion1{  
+  margin-top:15px;
+  background: #BAB9B9;
+  border-top:3px solid #cc3616;
+  /*border-bottom:3px solid #cc3616;*/
+  clear: both;
+}
+
+.seccion1 ul{
+   text-align: center; 
+  
+}
+.seccion1 li {
+  text-decoration: none;
+  display: inline;   
+  margin: 0 auto;  /* Alinear Horizontal*/
+  padding: 0px 15px;
+  line-height: 150%; /*Alinear vertical*/
+  color:#fff;
+
+}
+
+.a1, .a2, .a4 {
+      
+      
+}
+.a3 {
+     
+        
+}
+/*FIN Primera Sección de la cebecera*/
+
+
+
+
+
+/*Segunda Sección de la cebecera*/
+.seccion2{
+  background: #BAB9B9; 
+  overflow: hidden;
+  height: 500px;
+}
+
+
+.izquierda {
+  padding-top: 5px;
+  float: left;
+  text-align: center; 
+  width: 14%;
+}
+
+.logo h1{
+      text-decoration:none; 
+    border:0;
+    width : 200px;
+    height : 80px;
+    margin-top: 30px;
+  margin-left:0px;
+    padding : 0;
+    
+  background: url(../img/logo.png) no-repeat 0 0;
+}
+ 
+.logo h1 a {
+    display : block;
+    height : 80px;
+    text-indent : -9999px;
+}
+
+
+
+.centro{  
+   float: left;   
+   text-align: center; 
+   width: 59%; 
+   padding-top: 11px;
+}
+
+
+.searchbar input{
+  width: 92%;
+  height: 25px;
+}
+
+.derecha {
+  padding-top: 15px;
+  float: right;   
+  text-align: center; 
+  width: 24%;
+ 
+}
+
+.publicar {
+  background: #FF5700;
+  background-image: -webkit-linear-gradient(top, #FF5700, #BF4200);
+  background-image: -moz-linear-gradient(top, #FF5700, #BF4200);
+  background-image: -ms-linear-gradient(top, #FF5700, #BF4200);
+  background-image: -o-linear-gradient(top, #FF5700, #BF4200);
+  background-image: linear-gradient(to bottom, #FF5700, #BF4200);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.publicar:hover {
+  background: #FF8811;
+  background-image: -webkit-linear-gradient(top, #FF8811, #BF660D);
+  background-image: -moz-linear-gradient(top, #FF8811, #BF660D);
+  background-image: -ms-linear-gradient(top, #FF8811, #BF660D);
+  background-image: -o-linear-gradient(top, #FF8811, #BF660D);
+  background-image: linear-gradient(to bottom, #FF8811, #BF660D);
+  text-decoration: none;
+}
+
+/*FIN Segunda Sección de la cebecera*/
+
+
+
+
+
+
+/*Tercera Sección de la cebecera*/
+.banner img{
+  width: 70%;
+}
+/*FIN Tercera Sección de la cebecera*/
